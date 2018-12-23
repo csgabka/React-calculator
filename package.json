@@ -21,13 +21,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "comment": "Check it out!",
-  "content": {
-    "title": "React calculator",
-    "description": "React calculator",
-    "submitted-url": "https://csgabka.github.io/React-calculator/",  
-    "submitted-image-url": "https://raw.githubusercontent.com/csgabka/csgabka-portfolio/master/src/img/calculator.png"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
