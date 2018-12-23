@@ -21,12 +21,12 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "comment": "Check out developer.linkedin.com!",
+  "comment": "Check it out!",
   "content": {
-    "title": "LinkedIn Developers Resources",
-    "description": "Leverage LinkedIn's APIs to maximize engagement",
-    "submitted-url": "https://developer.linkedin.com",  
-    "submitted-image-url": "https://example.com/logo.png"
+    "title": "React calculator",
+    "description": "React calculator",
+    "submitted-url": "https://csgabka.github.io/React-calculator/",  
+    "submitted-image-url": "https://raw.githubusercontent.com/csgabka/csgabka-portfolio/master/src/img/calculator.png"
   },
   "browserslist": [
     ">0.2%",
