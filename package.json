@@ -21,6 +21,13 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "comment": "Check out developer.linkedin.com!",
+  "content": {
+    "title": "LinkedIn Developers Resources",
+    "description": "Leverage LinkedIn's APIs to maximize engagement",
+    "submitted-url": "https://developer.linkedin.com",  
+    "submitted-image-url": "https://example.com/logo.png"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
