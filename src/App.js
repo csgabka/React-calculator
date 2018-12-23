@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import Display from './components/display';
 import AutoShrinking from './components/autoshrinking';
 import * as math from 'mathjs';
 
@@ -90,7 +89,7 @@ class App extends Component {
             <div onClick={() => this.buttonClicked('7')} className="col light-grey">7</div>
             <div onClick={() => this.buttonClicked('8')} className="col light-grey">8</div>
             <div onClick={() => this.buttonClicked('9')} className="col light-grey">9</div>
-            <div onClick={() => this.chooseOperand('*')} className="col orange">*</div>
+            <div onClick={() => this.chooseOperand('*')} className="col orange">x</div>
           </div>
           <div className="row">
             <div onClick={() => this.buttonClicked('4')} className="col light-grey">4</div>
