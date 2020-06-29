@@ -58,7 +58,6 @@
 .light-grey { background-color: #C9CACE }
 .orange { background-color: #FB7B0A; color: #FED5B2; }
 
-
 /* Tablets, Ipads (portrait) */
 
 @media (min-width: 768px) and (max-width: 1024px)   {
@@ -76,13 +75,13 @@
   .display-screen {
   font-size: 7vw;
 }
-  
+
 }
 
 /* Tablets, Ipads (landscape) */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
+
   .container {
   width: 200px;
   height: 300px;
@@ -97,7 +96,7 @@
   .display-screen {
   font-size: 5vw;
 }
-  
+
 }
 
 /* Low Resolution Tablets, Mobiles (Landscape) */

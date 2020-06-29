@@ -37,7 +37,7 @@ class App extends Component {
   }
 
   percentage(operator) {
-    this.setState({input: this.state.input / 100}); 
+    this.setState({input: this.state.input / 100});
   }
 
   chooseOperand(operator) {
@@ -57,7 +57,7 @@ class App extends Component {
     }
     this.setState({input: math.eval(this.state.input)});
   }
-  
+
   reset(digit) {
     this.setState({ input: 0});
   }
@@ -65,9 +65,9 @@ class App extends Component {
   toggle() {
     let notNumberOnly = /[+%/*.]/;
     if (notNumberOnly.test(this.state.input))
-    { 
+    {
       this.setState({input: 0});
-    }    
+    }
     else {
         this.setState({input: this.state.input * -1});
     }
